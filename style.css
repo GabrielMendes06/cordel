@@ -39,16 +39,16 @@ main .fundo-joaninha{
     background-attachment: fixed;   
 }
 .fundo-joaninha p{
-    
+    max-width: 60vh;
 }
 main #joaninha{
     color: white;
     background-color: rgba(0, 0, 0, 0.479);
-    max-height: 65vh;
     max-width: 60vh;
     padding: 3vh;
     margin-top: 5vh;
-    white-space: normal;   
+    white-space: normal;
+    height: 100%;   
 }
 main .fundo-livro{
     background-image: url(imagens/background002.jpg);
@@ -61,10 +61,11 @@ main .fundo-livro{
 main #livro{
     color: white;
     background-color: rgba(0, 0, 0, 0.479);
-    max-height: 65vh;
     max-width: 60vh;
     padding: 3vh;
     margin-top: 5vh;
+    white-space: normal;
+    height: 100%;  
 }
 footer{
     background-color: black;
